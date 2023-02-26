@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() {
+    //For Winerfell!
+    //For Lanisters!
+    std::cout << "Hello Jon Snow!"; 
+    //You know nothing, Jon Snow!
+    return 0;
+    /*Пиздецки длинный комментарий прям да
+    реально длинный
+    целых три строки */
+}
+
