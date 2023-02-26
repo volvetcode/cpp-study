@@ -1,2 +1,2 @@
-# cpp-study
+# c++-study
 courses and stuff
