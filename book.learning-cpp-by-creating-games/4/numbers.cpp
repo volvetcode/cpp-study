@@ -6,9 +6,15 @@ int main () {
     int y = 9;
     int z = 900;
     int s = 50;
-    cout << x += 4 << endl;
-    cout << y -= 2 << endl;
-    cout << x /= 2 << endl;
-    cout << x *= 2 << endl;
+
+    x += 4;
+    y -= 2;
+    z /= 2; 
+    s *= 2;
+
+    cout << x << endl;
+    cout << y << endl;
+    cout << z << endl;
+    cout << s << endl;
     return 0;
 }
