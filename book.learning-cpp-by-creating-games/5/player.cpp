@@ -1,19 +1,20 @@
 #include <iostream>
 using namespace std;
 
-// Define a C++ data struct for a Player object. Then, create an instance of your Player class and fill each of the data members with values.
-
 struct Player 
 {
     string name;
-    int hp;
+    float hp;
     Vector positon;
 };
 
 int main() {
     Player me;
     me.name = "Volvet";
-    me.hp = 100
+    me.hp = 100.0f  // .0f is because of float type
     me.position.x=0, me.position.y=0, me.position.z=0;
+    
+    Player* ptrMe; //declaring a pointer
+    ptrMe = &me; //linkage. core step. memory access violation without it   
 }
 
